@@ -1,17 +1,339 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 1
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:gengarite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:gardevoirite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:ampharosite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:venusaurite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:charizardite_x"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:blastoisinite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:blazikenite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:medichamite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:houndoominite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:aggronite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:banettite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:tyranitarite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:scizorite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:pinsirite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:aerodactylite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:lucarionite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:abomasite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:kangaskhanite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:gyaradosite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:absolite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:charizardite_y"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:alakazite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:heracronite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:mawilite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:manectite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:garchompite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:swampertite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:sceptilite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:sablenite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:altarianite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:galladite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:audinite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:metagrossite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:sharpedonite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:slowbronite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:steelixite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:pidgeotite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:glalitite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:cameruptite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:lopunnite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:salamencite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:beedrillite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:clefablite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:victreebelite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:starminite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:dragoninite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:meganiumite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:feraligite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:skarmorite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:froslassite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:emboarite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:excadrite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:scolipite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:scraftinite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:eelektrossite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:chandelurite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:chesnaughtite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:delphoxite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:greninjite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:pyroarite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:floettite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:malamarite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:barbaracite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:dragalgite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:hawluchanite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:drampanite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:falinksite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:raichunitex"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:raichunitey"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:chimechoite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:absolitez"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:staraptite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:garchompitez"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:lucarionitez"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:golurkite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:meowsticite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:crabominite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:golisopite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:scovillainite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:baxcalibrite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:tatsugirinite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mega_showdown:glimmoranite"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "random_sequence": "minecraft:gameplay/fishing/treasure"
+    ]
 }

@@ -25,6 +25,7 @@ public class MegaFishing implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	private static final Identifier FISHING_TREASURE_LOOT_TABLE_ID = Identifier.of("minecraft", "gameplay/fishing/treasure");
 	private static final Identifier MEGA_STONE_LOOT_TABLE_ID = Identifier.tryParse("megafishing", "gameplay/fishing/mega_stones");
+	private static final Identifier BLANK_MEGA_STONE_LOOT_TABLE_ID = Identifier.tryParse("megafishing", "gameplay/fishing/blank_mega_stone");
 
 	@Override
 	public void onInitialize() {
@@ -41,10 +42,21 @@ public class MegaFishing implements ModInitializer {
 			// We also check that the loot table ID is equal to the ID we want.
 			if (source.isBuiltin() && FISHING_TREASURE_LOOT_TABLE_ID.equals(key.getValue())) {
 				LOGGER.info("Injecting MegaFishing loot into fishing treasure table");
+
+
 				RegistryKey<LootTable> MEGA_STONE_LOOT_TABLE = RegistryKey.of(RegistryKeys.LOOT_TABLE, MEGA_STONE_LOOT_TABLE_ID);
 				LootPool.Builder poolBuilder = LootPool.builder()
 						.rolls(ConstantLootNumberProvider.create((1)))
+						.conditionally(RandomChanceLootCondition.builder(0.0625f))
 						.with(LootTableEntry.builder(MEGA_STONE_LOOT_TABLE));
+
+				tableBuilder.pool(poolBuilder);
+
+				RegistryKey<LootTable> BLANK_MEGA_STONE_LOOT_TABLE = RegistryKey.of(RegistryKeys.LOOT_TABLE, BLANK_MEGA_STONE_LOOT_TABLE_ID);
+				poolBuilder = LootPool.builder()
+						.rolls(ConstantLootNumberProvider.create((1)))
+						.conditionally(RandomChanceLootCondition.builder(0.00625f))
+						.with(LootTableEntry.builder(BLANK_MEGA_STONE_LOOT_TABLE));
 
 				tableBuilder.pool(poolBuilder);
 			}
