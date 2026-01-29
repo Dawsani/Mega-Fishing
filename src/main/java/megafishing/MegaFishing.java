@@ -5,9 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
-import net.minecraft.loot.LootTables;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
-import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.entry.LootTableEntry;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.registry.RegistryKey;
@@ -15,6 +13,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import megafishing.MegaFishingConfig;
 
 public class MegaFishing implements ModInitializer {
 	public static final String MOD_ID = "mega-fishing";
@@ -33,6 +32,7 @@ public class MegaFishing implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		MegaFishingConfig.load();
 		registerLootTableModifier();
 	}
 
@@ -47,7 +47,7 @@ public class MegaFishing implements ModInitializer {
 				RegistryKey<LootTable> MEGA_STONE_LOOT_TABLE = RegistryKey.of(RegistryKeys.LOOT_TABLE, MEGA_STONE_LOOT_TABLE_ID);
 				LootPool.Builder poolBuilder = LootPool.builder()
 						.rolls(ConstantLootNumberProvider.create((1)))
-						.conditionally(RandomChanceLootCondition.builder(0.0625f))
+						.conditionally(RandomChanceLootCondition.builder(MegaFishingConfig.INSTANCE.megaStoneChance))
 						.with(LootTableEntry.builder(MEGA_STONE_LOOT_TABLE));
 
 				tableBuilder.pool(poolBuilder);
@@ -55,7 +55,7 @@ public class MegaFishing implements ModInitializer {
 				RegistryKey<LootTable> BLANK_MEGA_STONE_LOOT_TABLE = RegistryKey.of(RegistryKeys.LOOT_TABLE, BLANK_MEGA_STONE_LOOT_TABLE_ID);
 				poolBuilder = LootPool.builder()
 						.rolls(ConstantLootNumberProvider.create((1)))
-						.conditionally(RandomChanceLootCondition.builder(0.00625f))
+						.conditionally(RandomChanceLootCondition.builder(MegaFishingConfig.INSTANCE.blankMegaStoneChance))
 						.with(LootTableEntry.builder(BLANK_MEGA_STONE_LOOT_TABLE));
 
 				tableBuilder.pool(poolBuilder);
