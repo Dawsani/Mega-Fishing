@@ -34,7 +34,7 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"zamega": "*",
+		"zamega": "1.5.*",
 		"mega_showdown": "*"
 	}
 }
