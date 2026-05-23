@@ -27,4 +27,11 @@ One quick way to verify the mod is working properly is to enable cheats and test
 1. `/loot give @p loot megafishing:gameplay/fishing/mega_stones`
 2. `/loot give @p loot megafishing:gameplay/fishing/blank_mega_stone`
 
+# Requirements
+
+- Cobblemon: Mega Showdown
+  - Versions: Any
+- Navas ZA Mega
+  - Versions: >= 1.7.0
+
 Happy fishing :)
