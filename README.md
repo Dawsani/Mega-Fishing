@@ -20,4 +20,11 @@ These are the config file options:
   - Description: The probability that you get a blank mega stone whenever you catch a treasure while fishing.
   - Default Value: 0.00625 (1/160)
 
+# Verification
+
+One quick way to verify the mod is working properly is to enable cheats and test the following commands. The first should give the player a random mega stone, and the second should give the player a blank mega stone.
+
+1. `/loot give @p loot megafishing:gameplay/fishing/mega_stones`
+2. `/loot give @p loot megafishing:gameplay/fishing/blank_mega_stone`
+
 Happy fishing :)
